@@ -37,10 +37,10 @@ public abstract class AccesoJDBC {
             //Crear el objeto de conexion a la base de datos
             conexion = DriverManager.getConnection(DBURL_SQLITE);
         }
-        catch (ClassNotFoundException ex) { //excepcion chequeada (obligacion de definir un catch) para linea 30
+        catch (ClassNotFoundException ex) { //excepcion chequeada (obligacion de definir un catch) para linea 33
             System.out.println(ex);
         }
-        catch (SQLException ex) {           //excepcion chequeada (obligacion de definir un catch) para linea 35
+        catch (SQLException ex) {           //excepcion chequeada (obligacion de definir un catch) para linea 38
             System.out.println(ex);
         }
         
